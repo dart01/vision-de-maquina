@@ -1,1 +1,1 @@
-mg = cv2.imread('C:/Users/diego/Desktop/IA/ConjuntoImagenes/Ejemplo01.jpg',1)
+flags == cv2.EVENT_FLAG_LBUTTON
