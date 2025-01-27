@@ -1,7 +1,8 @@
 import cv2  # Importa la biblioteca OpenCV, que se utiliza para el procesamiento de imágenes y visión por computadora.
 
 # Cargar el clasificador en cascada para vehículos
-car_cascade = cv2.CascadeClassifier('C:/Users/diego/Desktop/IA/taller2/cars.xml')
+#car_cascade = cv2.CascadeClassifier('C:/Users/diego/Desktop/IA/taller2/cars.xml')
+car_cascade = cv2.CascadeClassifier('C:/Users/diego/Desktop/IA/taller2/cascade.xml')
 # Se crea un objeto CascadeClassifier que carga un modelo preentrenado para detectar vehículos. 
 # El archivo 'cars.xml' contiene los datos del clasificador.
 
@@ -12,7 +13,7 @@ if car_cascade.empty():
 # Se verifica si el clasificador se ha cargado correctamente. 
 # Si no se ha cargado, se imprime un mensaje de error y se termina la ejecución del programa.
 
-image_path = 'C:/Users/diego/Desktop/IA/taller2/imagen2.jpg'  # Cambia esto según la imagen que desees usar
+image_path = 'C:/Users/diego/Desktop/IA/taller2/imagen3.jpg'  # Cambia esto según la imagen que desees usar
 # Se define la ruta de la imagen que se va a procesar. 
 # Puedes cambiar 'imagen2.jpg' por cualquier otra imagen que desees usar.
 

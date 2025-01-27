@@ -3,8 +3,8 @@ import os
 
 # Ruta de la carpeta que contiene las imágenes
 folder_path = './taller2/p'
-# Dimensiones deseadas
-new_size = (48, 48)  # Cambia esto a las dimensiones que desees
+# Dimensiones deseadas para restaurar
+new_size = (128, 128)  # Cambia esto a las dimensiones que desees
 
 # Iterar sobre cada archivo en la carpeta
 for filename in os.listdir(folder_path):
@@ -16,4 +16,4 @@ for filename in os.listdir(folder_path):
             # Guardar la imagen redimensionada
             img.save(img_path)
 
-print("Todas las imágenes han sido redimensionadas.")
+print("Todas las imágenes han sido restauradas a las nuevas dimensiones.")
