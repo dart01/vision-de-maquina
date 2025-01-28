@@ -27,6 +27,7 @@ if image is None:
 # Se verifica si la imagen se ha cargado correctamente. 
 # Si 'image' es None, significa que no se pudo cargar la imagen, se imprime un mensaje de error y se termina la ejecución.
 
+
 # Convertir a escala de grises
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 # Se convierte la imagen a escala de grises utilizando cv2.cvtColor. 
